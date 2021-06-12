@@ -1,0 +1,100 @@
+/* CSS Document */
+html,
+body {
+    font-family: 'Alegreya','Merriweather', serif;
+    background-color: #F0F0F0;
+      color: #333;
+      font-size: 16px;
+      line-height: 20px;
+}
+
+/* ---------------Body---------------- */
+
+body {
+
+}
+
+/*---------------END OF Body ---------------*/
+
+
+
+/*---------------Navigation--------------- */
+
+
+/*---------------END OF Navigation--------------- */
+
+/*---------------Main--------------- */
+main {
+}
+
+
+/*---------------END OF Main--------------- */
+
+/*---------------Images--------------- */
+
+img {
+  max-width: 600px;
+  transition: 0.75s;
+}
+
+
+
+/*---------------END OF Images--------------- */
+
+
+
+
+/* ---------------Footer--------------- */
+footer {
+  grid-area: foot;
+  background-color: #212121;
+  text-align: center;
+  padding-top: 13px;
+}
+
+footer a{
+  color: rgb(179, 179, 85);
+}
+
+/*---------------End of Footer---------------*/
+/*---------------Media queries---------------*/
+@media screen and (max-width: 800px) {
+
+
+
+  body {
+    /* Set width: aside main */
+    grid-template-columns: 1fr;
+    /* Set height: head main/aside foot */
+    grid-template-rows: 100px 200px 1fr 100px;
+    /* Layout by row */
+    grid-template-areas:
+      "head"
+      "main"
+      "foot";
+  }
+}
+
+
+@media screen and (max-width:1000px){
+
+  .images{
+    display:none;
+  }
+
+  .listz{
+    display:flex;
+
+
+  }
+
+  .content{
+    width:100%;
+    
+  }
+  
+  #posts article {
+    display: flex;
+}
+
+}
