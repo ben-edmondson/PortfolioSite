@@ -1,3 +1,9 @@
+:root {
+
+}
+* { 
+  margin: 0;
+  padding: 0;}
 /*sections------------------------------------------------------------------- */
 body {
   margin: 100px;
@@ -11,6 +17,7 @@ article.projects	{
   margin: 60px;
   display: flex;
   width: 400px;
+  
 }
 article.aboutme{
   border-radius: 10px;
@@ -31,15 +38,17 @@ section.projects{
   display:flex;
   flex-direction: row;
   font-family: 'Benne', serif;
+  border-style: dotted;
 
 }
 section.aboutme{
   font-family: 'Benne', serif;
+  border-style: dotted;
 
 }
 section.contact{
   font-family: 'Benne', serif;
-
+  border-style: dotted;
 }
 /*individual text tags--------------------------------- */
 h1	{
