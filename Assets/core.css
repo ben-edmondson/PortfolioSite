@@ -19,8 +19,13 @@ article.projects {
 article.aboutme {
   border-radius: 10px;
   background: #999;
+  color: white;
   padding: 2%;
   margin: 60px;
+}
+
+form.contact {
+  padding: 5%;
 }
 
 /*headings------------------------------------------------------------------- */
