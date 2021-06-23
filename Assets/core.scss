@@ -2,12 +2,7 @@
 body {
   margin: 100px;
   padding:10px;
-  
-}
-#wrapper {
-}
-main  {
-}
+} 
 article.projects	{
   background: #999;
   color: white;
@@ -27,29 +22,8 @@ article.aboutme{
 form.contact{
   padding: 5%;
   text-align: center;
-  
 }
-aside	{
-}
-footer {
-}
-header {
-}
-.post	{
-}
-nav	{
-}
-.menu	{
-}
-/*headings------------------------------------------------------------------- */
-h1	{
-  text-align: center;
-  font-family: 'Lora', serif;
-}
-h2	{
-}
-h3 	{
-}
+
 /*grouping------------------------------------------------------------------- */
 
 
@@ -67,50 +41,10 @@ section.contact{
   font-family: 'Benne', serif;
 
 }
-p{
-
-}
-blockquote	{
-}
-/*lists---------------------------------------------------------------------- */
-ul	{
-}
-li	{
-}
-ol	{
-}
-dl	{
-}
-dt	{
-}
-dd	{
-}
-/*text------------------------------------------------------------------------ */
-em	{
-}
-strong	{
-}
-small	{
-}
-cite	{
-}
-time	{
-}
-/*image----------------------------------------------------------------------- */
-figure	{
-}
-figcaption	{
-}
-img	{
-}
-/*anchors--------------------------------------------------------------------- */
-a:link	{
-}
-a:visited {
-}
-a:hover {
-}
-a:active {
+/*individual text tags--------------------------------- */
+h1	{
+  text-align: center;
+  font-family: 'Lora', serif;
 }
 /*navigation----------------------------------------------------------------------- */
 .navbar{
