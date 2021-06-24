@@ -3,12 +3,12 @@
   padding: 0;
 }
 
-/*sections------------------------------------------------------------------- */
 body {
   margin: 0px;
   padding: 0px;
 }
 
+/*inside section------------------------------------------------------------------- */
 article.projects {
   background: #999;
   color: white;
@@ -34,7 +34,7 @@ form.contact {
   text-align: center;
 }
 
-/*grouping------------------------------------------------------------------- */
+/*sections------------------------------------------------------------------- */
 section.projects {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -60,10 +60,11 @@ section.contact {
   margin: 100px;
 }
 
-/*individual text tags--------------------------------- */
+/*header--------------------------------- */
 h1 {
   text-align: center;
   font-family: 'Lora', serif;
+  margin: 10px;
 }
 
 header {
@@ -73,8 +74,13 @@ header {
 /*navigation----------------------------------------------------------------------- */
 .navbar {
   overflow: hidden;
+  position: fixed;
   background-color: #999;
-  margin: 0;
+  margin-bottom: 10px;
+  padding: 0px;
+  width: 100%;
+  -webkit-transition: top 0.3s;
+  transition: top 0.3s;
 }
 
 .navbar a {
