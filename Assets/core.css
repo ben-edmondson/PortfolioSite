@@ -66,35 +66,32 @@ h1 {
   font-family: 'Lora', serif;
 }
 
+header {
+  padding: 2%;
+}
+
 /*navigation----------------------------------------------------------------------- */
 .navbar {
-  height: 100%;
-  width: 160px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
+  overflow: hidden;
   background-color: #999;
-  overflow-x: hidden;
-  padding-top: 20px;
 }
 
 .navbar a {
-  display: block;
-  color: #000000;
-  text-align: left;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
 }
 
 .navbar a:hover {
-  background-color: white;
+  background-color: #ddd;
   color: black;
 }
 
 .navbar a.active {
-  background-color: #ffffff;
-  color: #1eff00;
+  background-color: white;
+  color: white;
 }
 /*# sourceMappingURL=core.css.map */
