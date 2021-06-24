@@ -18,15 +18,15 @@ article.projects {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 400px;
+  width: 600px;
 }
 
 article.aboutme {
-  border-radius: 10px;
+  border-radius: 20px;
   background: #999;
   color: white;
   padding: 2%;
-  margin: 60px;
+  margin: 60px 60px 60px 60px;
 }
 
 form.contact {
@@ -45,16 +45,19 @@ section.projects {
           flex-direction: row;
   font-family: 'Benne', serif;
   border-style: dotted;
+  margin: 100px;
 }
 
 section.aboutme {
   font-family: 'Benne', serif;
   border-style: dotted;
+  margin: 100px;
 }
 
 section.contact {
   font-family: 'Benne', serif;
   border-style: dotted;
+  margin: 100px;
 }
 
 /*individual text tags--------------------------------- */
