@@ -1,6 +1,8 @@
 * {
   margin: 0;
   padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -85,6 +87,7 @@ header {
 
 .navbar a {
   float: left;
+  display: block;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
@@ -102,4 +105,14 @@ header {
   background-color: white;
   color: white;
 }
+
+.burger {
+  background-color: white;
+}
+
+.head {
+  border-bottom: 1px solid #E2E8F0;
+}
+
+/*Media Queries ------- */
 /*# sourceMappingURL=core.css.map */
